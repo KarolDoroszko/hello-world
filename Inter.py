@@ -15,6 +15,7 @@ class IFlying:
               'get to know of the acceleration {acc}'.format(acc=self.Iacc))
     def INoflying(self):
         print('There is no flight at all')
+        print('Test')
 
 
 
