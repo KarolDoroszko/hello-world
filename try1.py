@@ -1,4 +1,6 @@
 import Inter
+import numpy as np
+
 class Duck:
     def __init__(self, Dtype, Dname,Dflying):
         self.Dtype = Dtype
@@ -26,5 +28,6 @@ if __name__ == '__main__':
     DuckNoFly.Dflying_meth()
     DuckExtra.Dflying_meth()
     DuckNormal.Dflying_meth()
+    z = np.array([[0,0],[1,1]])
 
 
